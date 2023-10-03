@@ -11,8 +11,17 @@ public class Test{
 
     }
 
+    /**
+     * @author StoicNeutron
+     * @param started
+     */
     public void method3(boolean started){
 
+        if(started){
+            System.out.println("This process has started!");
+        }else{
+            System.out.println("This process has not yet started!");
+        }
     }
 
 }
