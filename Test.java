@@ -4,11 +4,11 @@ public class Test{
     static boolean started;
 
     public void method1(String name){
-        
+        name = "Test";
     }
 
     public void method2(int id){
-
+        id = 1;
     }
 
     /**
